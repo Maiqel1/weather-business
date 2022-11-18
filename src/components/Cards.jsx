@@ -4,7 +4,7 @@ import cardImg3 from "../assets/img/cardimg3.png";
 
 function Cards() {
   return (
-    <div className="container-fluid mb-5">
+    <div className="container-fluid mb-5 mt-5">
       <div className="d-flex justify-content-center flex-wrap flex-md-nowrap">
         <div className="customCard  h-full p-4">
           <div className="text-center">
@@ -32,7 +32,7 @@ function Cards() {
           <div className="text-center">
             <img src={cardImg3} className="text-center mt-3" alt="" />
             <h3 className="mt-4">Better crop or herd management</h3>
-            <p className="mt-4">
+            <p className="mt-4 mt-md-5 mt-lg-4">
               Dedicated tools and diagnostics can assist the farmer in better
               crop or herd management.
             </p>
