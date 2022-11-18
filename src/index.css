@@ -1,4 +1,136 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+*{
+  font-family: 'Outfit';
+}
+
+nav a{
+  color: black !important;
+  display: none;
+}
+
+nav button{
+  background-color: #EF6820 !important;
+}
+
+.header{
+  background-image: url('./assets/img/Map.png');
+  height:600px;
+}
+
+.overview {
+  background-color: #FDEAD7;
+}
+
+.overview p{
+  font-size: 24px;
+  color: #EF6820;
+}
+
+.overview h2{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+/* font-size: 48px; */
+/* line-height: 60px;  */
+ letter-spacing: -0.01em;
+}
+
+.advantage h4 {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  
+  color: #B93815;
+}
+
+.advantage h1{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+/* font-size: 48px; */
+/* line-height: 60px; */
+text-align: center;
+letter-spacing: -0.01em;
+
+/* Grey/800 */
+
+color: #2B2A30;
+}
+
+.advantage p{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 157.5%;
+/* or 38px */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+/* Grey/700 */
+
+color: #565560;
+
+}
+
+
+.customCard {
+  background-color: #F3F3F4;
+  /* height: 100%;   */
+  width: 429px;
+  
+}
+
+.customCard h3{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 106%;
+/* or 32px */
+
+text-align: center;
+
+/* Grey/800 */
+
+color: #2B2A30;
+}
+
+.customCard p{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 106%;
+/* or 21px */
+
+text-align: center;
+
+/* Grey/700 */
+
+color: #565560;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +142,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
