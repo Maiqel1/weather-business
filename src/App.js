@@ -5,6 +5,7 @@ import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
 import Products from "./components/Products";
+import Industries from "./components/Industries";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Cards/>
     <Products/>
     <HowItWorks/>
+    <Industries/>
     </>
   );
 }

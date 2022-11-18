@@ -211,6 +211,63 @@ color: #D0D0D5;
   background-size: cover;
 }
 
+.industries{
+  background-color: #2B2A30;
+}
+
+.industryCard{
+  width: 371px;
+/* height: 226px; */
+
+/* Grey/700 */
+
+border: 1px solid #565560;
+border-radius: 8px;
+}
+
+.industries h3{
+  font-size: 24px;
+line-height: 30px;
+letter-spacing: -0.01em;
+color: #EF6820;
+
+}
+
+.industries h2{
+  font-weight: 700;
+font-size: 48px;
+line-height: 98.5%;
+letter-spacing: -0.01em;
+
+/* Grey/50 */
+
+color: #FBFBFC;
+
+}
+
+.industries h4{
+  font-weight: 700;
+font-size: 30px;
+line-height: 106%;
+
+
+color: #FBFBFC;
+}
+
+.industries p {
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 106%;
+/* or 21px */
+
+
+/* Grey/300 */
+
+color: #DCDBE0;
+
+}
+
 
 
 
