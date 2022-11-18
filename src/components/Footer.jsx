@@ -33,10 +33,10 @@ function Footer() {
     <hr className='line' />
         <div className='d-block d-md-flex justify-content-between  '>
             <div className='text-white'>
-                <p>&copy; 2022 Weathery, all rights reserved to Team Gear</p>
+                <p className='ms-2 ms-md-5'>&copy; 2022 Weathery, all rights reserved to Team Gear</p>
             </div>
 
-            <div className='d-flex'>
+            <div className='d-flex me-0 me-5'>
             <i><img src={language} alt="" /></i> <p className='text-white d-none d-md-block' > English</p>
             <i className='ms-4'><img src={uk} alt="" /></i> <p className='text-white d-none d-md-block'>United Kingdom</p>
             <i className='ms-4'><img src={CustomerCare} alt="" /></i>   <p className='text-white d-none d-md-block '>Customer Support</p>

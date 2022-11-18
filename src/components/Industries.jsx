@@ -83,7 +83,7 @@ insightsfor your workforce.
 
       <div className="row d-flex justify-content-center">
         <div className="industryCard col-md-3 col-8">
-        <h4 className="text-white mt-4 mb-4">Import & Export</h4>
+        <h4 className="text-white mt-4 mb-5">Import & Export</h4>
           <p className="text-white">
           Predict and plan for weather
 -related routing and supply 
@@ -95,7 +95,7 @@ chain disruptions.
         </div>
 
         <div className="industryCard col-md-3 col-8 ms-5 me-5 mt-3 mb-3 mt-md-0 mb-md-0">
-        <h4 className="text-white mt-4 mb-4 ">Forensic Meteorology</h4>
+        <h4 className="text-white mt-4 mb-5 ">Forensic Meteorology</h4>
           <p className="text-white">
           Get expert witness testimony and
  past weather event verification.
@@ -105,7 +105,7 @@ chain disruptions.
           </a>
         </div>
         <div className="industryCard col-md-3 col-8">
-        <h4 className="text-white mt-4 mb-4">Mining</h4>
+        <h4 className="text-white mt-4 mb-5">Mining</h4>
           <p className="text-white">
           Designed to take the guesswork
  out of weather.
