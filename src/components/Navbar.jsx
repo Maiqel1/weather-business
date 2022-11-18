@@ -23,11 +23,11 @@ function Navbar() {
         For Business
           </a>
         </li>
-        <div className="ms-0 ms-md-0 ps-0 ps-md-0 ms-lg-5 ps-lg-5 navInput">
+      </ul>
+      <div className="ms-0 ms-md-0 ps-0 ps-md-0 me-lg-2 pe-lg-1 pt-2 navInput col-lg-5">
           <i className='icon'><img className='img-fluid pb-4' src={search} alt="" /> </i>
           <input type="text" placeholder='Search for city' className='form-control' />
         </div>
-      </ul>
       
       <button className="btn btn-md px-3 text-white col-12 col-md-12 col-lg-2" type="submit"  >Sign Up</button>
 

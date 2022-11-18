@@ -32,7 +32,7 @@ padding: 10px;
 
 .navInput input{   
             text-align: center;
-            width: 320px;
+            /* width: 320px; */
 }
 
 .overview {
