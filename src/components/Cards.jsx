@@ -6,7 +6,7 @@ function Cards() {
   return (
     <div className="container-fluid mb-5 mt-5">
       <div className="d-flex justify-content-center flex-wrap flex-md-nowrap">
-        <div className="customCard  h-full p-4 pb-5">
+        <div className="customCard  h-full p-4 pb-5 ms-0 ms-md-4">
           <div className="text-center">
             <img src={cardImg1} className="text-center mt-3" alt="" />
             <h3 className="mt-4">Accurate forecasts assist your planning</h3>
@@ -16,7 +16,7 @@ function Cards() {
             </p>
           </div>
         </div>
-        <div className="customCard  mx-auto ms-0 ms-md-4 ms-lg-4 me-0 me-md-4 me-lg-4 mt-3 mt-md-0 mt-md-0 mb-3 mb-md-0 mb-lg-0 h-full p-4">
+        <div className="customCard  mx-auto ms-0 ms-md-5 ms-lg-4 me-0 me-md-5 me-lg-4 mt-3 mt-md-0 mt-md-0 mb-3 mb-md-0 mb-lg-0 h-full p-4">
           <div className="text-center">
             <img src={cardImg2} className="text-center mt-3" alt="" />
             <h3 className="mt-4">
@@ -28,7 +28,7 @@ function Cards() {
             </p>
           </div>
         </div>
-        <div className="customCard h-full  p-4">
+        <div className="customCard h-full  p-4 me-0 me-md-4">
           <div className="text-center">
             <img src={cardImg3} className="text-center mt-3" alt="" />
             <h3 className="mt-4">Better crop or herd management</h3>
