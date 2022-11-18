@@ -303,7 +303,15 @@ font-size: 20px;
 line-height: 25px;
 }
 
+.footer{
+  background-color: #B93815;
+  height: 100%;
+}
 
+.line{
+  border: 1px solid #FFF6F6;
+  
+}
 
 
 
