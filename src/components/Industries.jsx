@@ -2,9 +2,9 @@ import Arrow from '../assets/img/ArrowUp.png'
 
 function industries() {
   return (
-    <div className="industries mt-5">
+    <div className="industries mt-5 pb-5">
       <div className="container">
-        <h3 className="text-danger pt-5 mb-4">Industries</h3>
+        <h3 className="pt-5 mb-4">Industries</h3>
         <h2 className="text-white mb-5">
           Our Services Are Tailored For Your Business
         </h2>

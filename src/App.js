@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Overview from "./components/Overview";
 import Products from "./components/Products";
 import Industries from "./components/Industries";
+import Form from "./components/Form";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
     <Products/>
     <HowItWorks/>
     <Industries/>
+    <Form/>
+    <Footer/>
     </>
   );
 }
