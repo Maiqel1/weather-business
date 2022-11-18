@@ -12,10 +12,10 @@ function Navbar() {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 pt-0 pt-md-2">
-        <li className="nav-item ms-0 ms-md-4">
+        <li className="nav-item ms-0 ms-md-0 ms-lg-4">
           <a className=" nav-link" aria-current="page" href="#">About Us</a>
         </li>
-        <li className="nav-item me-0 me-md-4 ms-0 ms-md-4">
+        <li className="nav-item me-0 me-md-3 ms-0 ms-md-0 ms-lg-3">
           <a className="nav-link"  href="#">Features</a>
         </li>
         <li className="nav-item">
@@ -23,13 +23,13 @@ function Navbar() {
         For Business
           </a>
         </li>
-        <div className="ms-0 ms-md-5 ps-0 ps-md-5 navInput">
+        <div className="ms-0 ms-md-0 ps-0 ps-md-0 ms-lg-5 ps-lg-5 navInput">
           <i className='icon'><img className='img-fluid pb-4' src={search} alt="" /> </i>
           <input type="text" placeholder='Search for city' className='form-control' />
         </div>
       </ul>
       
-      <button className="btn btn-md px-3 text-white col-12 col-md-2" type="submit"  >Sign Up</button>
+      <button className="btn btn-md px-3 text-white col-12 col-md-12 col-lg-2" type="submit"  >Sign Up</button>
 
     </div>
   </div>
