@@ -24,7 +24,7 @@ function Header() {
           <br />
           <br />
           <img src={business} className="img-fluid" alt="" />
-          <h2 className=" text-white">Weathery for <br className="d-none d-md-block"  /> Business</h2>
+          <h2 className=" text-white">Weathery for <br className="d-none d-md-block"  /><span style={{fontWeight: "600", fontSize: "45px"}}>Business</span></h2>
         </section>
         <section className="me-1 me-md-5">
           <br />
