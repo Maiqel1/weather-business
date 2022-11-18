@@ -118,6 +118,7 @@ color: #565560;
 
 .products{
   background-color: #2B2A30;
+  overflow-x: hidden;
 }
 
 .products button{
@@ -127,21 +128,90 @@ justify-content: center;
 align-items: center;
 padding: 20px 32px;
 gap: 8px;
-
-width: 199px;
-height: 56px;
-
 /* Primary/500 */
 
 background: #EF6820;
 border-radius: 4px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
 }
+
+.products button:hover{
+  background: #EF6820 ;
+}
+
+.products h3{
+  font-weight: 700;
+font-size: 26px;
+line-height: 106%;
+/* identical to box height, or 32px */
+
+text-align: center;
+
+/* Grey/50 */
+
+color: #FBFBFC;
+}
+
+.products p{
+  font-weight: 400;
+font-size: 16px;
+/* line-height: 106%; */
+color: #D0D0D5;
+}
+
+.HowItWorks h3{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  color: #EF6820;
+}
+
+.HowItWorks h2{
+  font-weight: 700;
+font-size: 48px;
+line-height: 90.5%;
+letter-spacing: -0.01em;
+
+color: #2B2A30;
+}
+
+.HowItWorks h4{
+  font-weight: 700;
+font-size: 30px;
+line-height: 106%;
+color: #FBFBFC;
+
+}
+
+.HowItWorks p{
+  font-weight: 400;
+font-size: 20px;
+line-height: 106%;
+color: #D0D0D5;
+}
+
+.worksCard{
+  height: 620px;
+  background-image: url('./assets/img/work1.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.worksCard1{
+  height: 620px;
+  background-image: url('./assets/img/work2.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.worksCard2{
+  height: 620px;
+  background-image: url('./assets/img/work3.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+
 
 
 
