@@ -18,6 +18,22 @@ nav button{
   height:600px;
 }
 
+.navInput i {
+  position: absolute;
+}
+
+.navInput{
+  margin-bottom: 10px;
+}
+
+.icon{
+padding: 10px;
+}
+
+.navInput input{   
+            text-align: center;
+}
+
 .overview {
   background-color: #FDEAD7;
 }
@@ -232,7 +248,7 @@ color: #EF6820;
 
 .industries h2{
   font-weight: 700;
-font-size: 48px;
+font-size: 42px;
 line-height: 98.5%;
 letter-spacing: -0.01em;
 
@@ -260,7 +276,7 @@ color: #DCDBE0;
 
 }
 
-input{
+.form input{
   /* width: 380px; */
   height: 44px;
   background: #E8E7EA !important;
@@ -293,6 +309,8 @@ letter-spacing: -0.01em;
 color: #2B2A30;
 }
 
+.form p{color: #565560}
+
 .companyP{
   font-weight: 400;
 font-size: 20px;
@@ -311,7 +329,7 @@ line-height: 25px;
 
 .footer p{
   font-weight: 400;
-font-size: 16px;
+font-size: 14.5px;
 line-height: 28px;
 }
 

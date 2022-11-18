@@ -1,4 +1,5 @@
 import logo from '../assets/img/logo.png'
+import search from '../assets/img/search.png'
 
 function Navbar() {
   return (
@@ -12,30 +13,23 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className=" nav-link" aria-current="page" href="#">Features</a>
+          <a className=" nav-link" aria-current="page" href="#">About Us</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link"  href="#">For Business</a>
+          <a className="nav-link"  href="#">Features</a>
         </li>
         <li className="nav-item">
           <a href="#" className="nav-link">
-        News
+        For Business
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link ">Careers</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link ">FAQs</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link ">About us</a>
-        </li>
+        <div className="ms-0 ms-md-5 ps-0 ps-md-5 navInput">
+          <i className='icon'><img className='img-fluid pb-4' src={search} alt="" /> </i>
+          <input type="text" placeholder='Search for city' className='form-control' />
+        </div>
       </ul>
-      <div className="d-flex " >
-        <a href="#" className="nav-link me-0 me-md-4">Contact Us</a>
-      </div>
-      <button className="btn btn-md text-white" type="submit" >Get Started</button>
+      
+      <button className="btn btn-md px-3 text-white col-12 col-md-2" type="submit"  >Sign Up</button>
 
     </div>
   </div>
