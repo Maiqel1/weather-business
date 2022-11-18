@@ -6,7 +6,7 @@ function Cards() {
   return (
     <div className="container-fluid mb-5 mt-5">
       <div className="d-flex justify-content-center flex-wrap flex-md-nowrap">
-        <div className="customCard  h-full p-4">
+        <div className="customCard  h-full p-4 pb-5">
           <div className="text-center">
             <img src={cardImg1} className="text-center mt-3" alt="" />
             <h3 className="mt-4">Accurate forecasts assist your planning</h3>
